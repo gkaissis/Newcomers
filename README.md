@@ -77,11 +77,11 @@ In general, avoid every single recommendation on [this site](https://docs.fast.a
 |----01_Experiment_1.ipynb
 |----...
 |-scripts_directory
-|----\_\_init__.py
+|----__init__.py
 |----module1.py
 |----module2.py
 |-tests
-|----\_\_init__.py
+|----__init__.py
 |----test_module1.py
 |----test_module2.py
 ```
@@ -97,8 +97,8 @@ In general, avoid every single recommendation on [this site](https://docs.fast.a
   - Arial 11 pts. for the text
   - 1.5 pt. line spacing
   - _italics_ for latin terms or standard terms (e.g. _quasi-mesenchymal_)
-  - don't use bold or underlined
-  - colour references to include later or anything else yellow
+  - Don't use bold or underlined
+  - Colour references to include later or anything else yellow
   
 - For monospaced text, please use [Fira Code](https://github.com/tonsky/FiraCode). It's a great font for your editor, too!
 
