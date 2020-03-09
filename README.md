@@ -29,17 +29,19 @@ def somefunc(x:Any)->None:
   """General description goes here.
 
   Args:
-    argument1: Description of argument 1. Don't include the type here as it is
-                 annotated above
+    argument1: Description of argument 1. Don't include the 
+               type here as it is annotated above
 
   Returns:
-    Description of the return value. Don't include the type as it is annotated above.
+    Description of the return value. 
+    Don't include the type as it is annotated above.
 
   Raises:
     SomeErrorType: Cause of the exception.
       
   Logs:
-    If you have logging enabled (which we recommend), explain what gets logged.
+    If you have logging enabled (which we recommend), 
+    explain what gets logged.
   """
 ```
 
@@ -82,7 +84,7 @@ In general, avoid every single recommendation on [this site](https://docs.fast.a
 |----\_\_init__.py
 |----test_module1.py
 |----test_module2.py
-
+```
 ---
 
 ## Writing
