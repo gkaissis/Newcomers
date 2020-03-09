@@ -26,21 +26,21 @@ Please stick to the [Google style guide](http://google.github.io/styleguide/pygu
 
 ```python
 def somefunc(x:Any)->None:
-    """General description goes here.
+  """General description goes here.
 
-    Args:
-      argument1: Description of argument 1. Don't include the type here as it is
+  Args:
+    argument1: Description of argument 1. Don't include the type here as it is
                  annotated above
 
-    Returns:
-      Description of the return value. Don't include the type as it is annotated above.
+  Returns:
+    Description of the return value. Don't include the type as it is annotated above.
 
-    Raises:
-      SomeErrorType: Cause of the exception.
+  Raises:
+    SomeErrorType: Cause of the exception.
       
-    Logs:
-      If you have logging enabled (which we recommend), explain what gets logged.
-    """
+  Logs:
+    If you have logging enabled (which we recommend), explain what gets logged.
+  """
 ```
 
 - Adhere to PEP8. Avoid things like:
@@ -65,6 +65,7 @@ In general, avoid every single recommendation on [this site](https://docs.fast.a
 
 - If you use Jupyter, please stick to the following project template:
 
+```
 -Top-level directory
 |
 |-data_directory
