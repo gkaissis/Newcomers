@@ -25,7 +25,7 @@ Please stick to the [Google style guide](http://google.github.io/styleguide/pygu
 - Please use google-style docstrings with the following format:
 
 ```python
-def somefunc(x:Any)->:
+def somefunc(x:Any)->None:
     """General description goes here.
 
     Args:
