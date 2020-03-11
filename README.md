@@ -7,7 +7,7 @@ This site contains some basic information about our group and about how we do th
 ## Getting started
 
 - We use GitHub for VC. Please make __absolutely__ sure that no personally identifiable data is __ever__ uploaded to GitHub.
-
+- We use Slack for collaboration. Please ask for an invite on your first day.
 ---
 
 ## Python Styleguide
@@ -63,14 +63,22 @@ In general, avoid every single recommendation on [this site](https://docs.fast.a
 
 - We use JupyterLab, not the old notebook interface anymore
 
-- We aim for production-ready code. Please don't use Jupyter for everything but refactor your experiments into a library.
+- We aim for reproducible, reusable and multi-purpose code. Please don't use Jupyter for everything but refactor your experiments into a library in the following way:
+ - A notebooks section which mirrors your experimental strategy. Make _**absolutely**_ sure that you don't have cells in there which contain personal information or any other sensitive data.
+ - A `src` or `scripts` folder which contains one `.py` module per experiment and/or figure with descriptive naming.
+ - Appropriate tests
 
-- If you use Jupyter, please stick to the following project template:
+- Please make sure you include an `environment.yml` file or at the very least a `requirements.txt` file.
+- Create one repository per project. Make use of issues and PRs to update code. Use the wikis and project boards.
+
+- Please stick to the following project template:
 
 ```
 -Top-level directory
 |
 |-data_directory
+|
+|-environment.yml
 |
 |-notebooks_directory
 |----00_EDA.ipynb
@@ -80,7 +88,7 @@ In general, avoid every single recommendation on [this site](https://docs.fast.a
 |----__init__.py
 |----module1.py
 |----module2.py
-|-tests
+|-tests_directory
 |----__init__.py
 |----test_module1.py
 |----test_module2.py
@@ -95,7 +103,9 @@ Please use [conda environments](https://conda.io/en/latest/miniconda.html) as mu
 
 ## Writing
 
-- If you want to use LaTeX, please use [Overleaf](https://www.overleaf.com)
+- If you want to use plain text or markdown (which is our preferred solution), create a `manuscripts` folder in your repository and place your text there, either as chapters or as sections (Introduction, Material etc.).
+
+- If you want to use LaTeX, we prefer to use [Overleaf](https://www.overleaf.com)
 
 - If you want to use a word processor, please use the following style:
   - Arial 14 pts. for Titles
