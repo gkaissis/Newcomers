@@ -87,6 +87,12 @@ In general, avoid every single recommendation on [this site](https://docs.fast.a
 ```
 ---
 
+## Conda
+
+Please use [conda environments](https://conda.io/en/latest/miniconda.html) as much as possible. Create a new env for each project and please upload the `environment.yml` file to VC so that people can easily re-create your experiments. 
+
+---
+
 ## Writing
 
 - If you want to use LaTeX, please use [Overleaf](https://www.overleaf.com)
