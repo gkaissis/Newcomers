@@ -7,7 +7,9 @@ This site contains some basic information about our group and about how we do th
 ## Getting started
 
 - We use GitHub for VC. Please make __absolutely__ sure that no personally identifiable data is __ever__ uploaded to GitHub.
+- There is also an LRZ Gitlab which we don't use much, but you should have an account for to use and some collaborators use.
 - We use Slack for collaboration. Please ask for an invite on your first day.
+
 ---
 
 ## Python Styleguide
