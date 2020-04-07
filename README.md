@@ -16,7 +16,7 @@ This site contains some basic information about our group and about how we do th
 
 Please stick to the [Google style guide](http://google.github.io/styleguide/pyguide.html) in general with some changes here or there:
 
-- We use 2 spaces for indentation (__don't use tabs__ or rebind them to 2 spaces in your editor)
+- We use 4 spaces for indentation (__don't use tabs__ or rebind them to 4 spaces in your editor)
 
 - We use the [black](https://black.readthedocs.io/en/stable/) autoformatter.
 
